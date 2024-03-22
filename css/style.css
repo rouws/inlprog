@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+}
+#afbeeldingen {
+    display: flex;
+    align-items: flex-end;
+}
+.knoppen {
+    width: 350px;
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-evenly;
+}
+#energie, #uitgerust {
+    height: 13em;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+span {
+    width: 30px;
+}
+span:nth-child(1), span:nth-child(2) {
+    background-color: rgb(255, 72, 72);
+    color: rgb(255, 72, 72);
+}
+span:nth-child(3), span:nth-child(4), span:nth-child(5) {
+    background-color: lightsalmon;
+    color: lightsalmon;
+}
+span:nth-child(6), span:nth-child(7), span:nth-child(8), span:nth-child(9), span:nth-child(10)  {
+    background-color: lightgreen;
+    color: lightgreen
+}
+.hidden {
+    display: none;
+}
+button {
+    background-color: rgb(117, 234, 117);
+    border: none;
+    padding: .5em 4em;
+    box-shadow: 3px 3px 5px gray;
+}
+button:hover {
+    background-color: rgb(32, 255, 32);
+}
+button:active {
+    background-color: rgb(32, 255, 32);
+    box-shadow: 1px 1px 3px gray;
+}
